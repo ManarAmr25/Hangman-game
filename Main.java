@@ -13,7 +13,7 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 		
 		Hangman x = new Hangman();	//create the game object
-		x.setMaxWrongGuesses(2);	//set max wrong guesses
+		x.setMaxWrongGuesses(6);	//set max wrong guesses
 		x.selectRandomSecretWord();	//select the random secret word
 		Scanner s = new Scanner(System.in);
 		String c;
